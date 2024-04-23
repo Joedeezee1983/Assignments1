@@ -1,0 +1,22 @@
+# Task 1: Grocery store math.
+
+price_bread = 2.5  # in dollars
+price_peanut_butter = 3.0  # in dollars
+price_jelly = 2.0  # in dollars
+
+# Calculate total cost
+total_cost = price_bread + price_peanut_butter + price_jelly
+
+print(f'The total cost of bread, peanut butter, and jelly is: ${total_cost}')
+
+
+# Task 2: Bank Interest
+
+initial_balance = 5000 # in dollars
+interest_rate = 0.05 #5%
+years = 1 #Number of years
+
+# Calculate the final balance
+final_balance = initial_balance * (1 + interest_rate)**years
+
+print(f'The final balance after {years} years is: ${final_balance}')

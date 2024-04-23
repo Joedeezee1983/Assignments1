@@ -1,0 +1,19 @@
+# Exercise 1
+
+# Without parentheses
+result1 = 1 + 2 * 3
+
+# With parentheses
+result2 = (1 + 2) * 3
+
+# Compare results
+comparison = result1 == result2
+
+print(f"Result without parentheses: {result1}")
+print(f"Result with parentheses: {result2}")
+print(f"Do the results match? {comparison}")
+
+# Exercise 2
+# Compute the expression
+result = (1 + 2 > 3) or (2 + 2 > 3)
+print(result)  # Should print: True
